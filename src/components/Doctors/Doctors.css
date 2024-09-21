@@ -1,0 +1,85 @@
+.header{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+   margin: 15px 40px;
+   border-radius: 30px;
+   overflow: hidden;
+   cursor: pointer;
+   width: 350px;
+   box-shadow: 2px 2px 0px #00B0FF;
+   transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 0px #00B0FF;
+}
+.card img{
+    height: 230px;
+   width: 100%;
+   object-fit: cover;
+}
+.card-content h3,h5{
+    margin: 8px 2px;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 17px;
+    background-color: #fff;
+    border: none;
+}
+.location{
+   font-size: 14px;
+   font-weight: 800;
+   margin-left: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.location-bar{
+    display: flex;
+}
+.location-icon{
+    font-size: 18px;
+    font-style: 800;
+}
+.card-content p{
+    font-size: 15px;
+}
+.appointment{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #00B0FF;
+    color: white;
+    transition: transform .5s;
+}
+.appointment:hover{
+    transform: scale(1.02);
+    background-color: #00B0FF;
+}
+.main{
+    padding: 10px;
+}
+.card-main{
+    display: flex;
+    justify-content: space-between;
+}
+.date-select{
+    border: none;
+    width: 140px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #00B0FF;
+}
+input::placeholder{
+    font-size: 12px;
+}
