@@ -482,6 +482,35 @@
           "date": "2024-08-24"
         }
       ]
+    },
+    {
+      "id": "f624",
+      "name": "Kriti",
+      "email": "kritikriti2003@gmail.com",
+      "password": "Kriti@123",
+      "confirmPassword": "Kriti@123",
+      "appointment": [
+        {
+          "id": "1",
+          "name": "Dr. John Smith",
+          "specialization": "Cardiology",
+          "about": "Dr. John Smith has over 15 years of experience in cardiology, specializing in heart disease and preventive care.",
+          "img_src": "https://www.shutterstock.com/image-photo/medical-concept-indian-beautiful-female-260nw-1635029716.jpg",
+          "location": "New York, NY",
+          "userId": "f624",
+          "date": "2024-09-22"
+        },
+        {
+          "id": "3",
+          "name": "Dr. Michael Brown",
+          "specialization": "Orthopedics",
+          "about": "Dr. Michael Brown has 12 years of experience in orthopedics, specializing in bone and joint surgery.",
+          "img_src": "https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg",
+          "location": "Chicago, IL",
+          "userId": "f624",
+          "date": "2024-09-22"
+        }
+      ]
     }
   ],
   "cartitems": [
@@ -507,6 +536,42 @@
       "usage": "Take one tablet every 4-6 hours as needed.",
       "sideEffects": "May cause drowsiness, dizziness, or upset stomach.",
       "manufacturer": "HealthCorp Pharmaceuticals",
+      "quantity": 1
+    },
+    {
+      "image": "./images/id12.webp",
+      "alt": "A bottle of probiotic supplements",
+      "title": "Probiotic Supplements",
+      "description": "Promotes a healthy gut flora and digestive health.",
+      "price": 18.99,
+      "id": "12",
+      "usage": "Take one capsule daily.",
+      "sideEffects": "May cause bloating or gas initially.",
+      "manufacturer": "ProBioHealth",
+      "quantity": 7
+    },
+    {
+      "id": "1",
+      "image": "./images/id1.jpg",
+      "alt": "A bottle of pain relief medicine",
+      "title": "Pain Relief Medicine",
+      "description": "Effective pain relief for headaches, muscle aches, and more.",
+      "price": 15.99,
+      "usage": "Take one tablet every 4-6 hours as needed.",
+      "sideEffects": "May cause drowsiness, dizziness, or upset stomach.",
+      "manufacturer": "HealthCorp Pharmaceuticals",
+      "quantity": 1
+    },
+    {
+      "id": "8",
+      "image": "./images/id8.jpg",
+      "alt": "A bottle of nasal spray",
+      "title": "Nasal Spray",
+      "description": "Clears nasal congestion and sinus pressure.",
+      "price": 7.99,
+      "usage": "Use 2-3 sprays in each nostril as needed.",
+      "sideEffects": "May cause temporary burning or stinging.",
+      "manufacturer": "ClearNose",
       "quantity": 1
     }
   ]
